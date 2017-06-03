@@ -6,7 +6,7 @@ This is not [Ithkuil](http://ithkuil.net/). [Ithkuil](http://ithkuil.net/) is a 
 
 This isn't yet set in stone, but I think this is a pretty decent subset of 2011 Ithkuil's current phonology.
 
-## Consonants
+### Consonants
 
 Where consonants appear in pairs, the one to the right is voiced. Otherwise, fricatives are unvoiced and all other sounds are voiced.
 
@@ -31,7 +31,7 @@ Aspirates and ejectives are neat too... **p**, **t**, and **k** can be followed 
 
 TODO: Calculate the number of possible consonant clusters
 
-## Vowels
+### Vowels
 
 Front and central vowels are unrounded; back vowels may be rounded
 
