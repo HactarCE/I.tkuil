@@ -60,3 +60,37 @@ And disallabic diphthong-vowel combinations (diphthong comes first):
 * oia oie oiu oio
 
 Altogether this yields 33 permissible vowel formations. Since **wu** and **yi** are really hard to pronounce, making **u** and **i** (or any diphthongs starting with them) interchangeable yields 28.
+
+## Morphology
+
+For the most part, the morphology is exactly the same as 2011 Ithkuil. There are a few small changes though:
+
+### Sanction and Validation
+
+Sanction and Validation have merged and split into three new categories, for now creatively called SV1, SV2, and SV3.
+
+#### SV1
+
+SV1 conveys the source of the information.
+
+* Direct observation
+* Inference
+* Intuition/feeling
+* Hearsay
+
+#### SV2
+
+SV2 conveys the basis of the information.
+
+* Objective fact
+* Human convention
+
+#### SV3
+
+SV3 conveys whether the information is expected to be refuted.
+
+* Axiomatic
+* Open to challenge
+* Rebuttable, but assumed to be true
+* Hypothesis/prediction
+
