@@ -17,11 +17,13 @@ Where consonants appear in pairs, the one to the right is voiced. Otherwise, fri
 | Dental        |       | (t d)   | .t .d     |             |
 | Alveolar      | n     | t d     | s z       | r           |
 | Post-alveolar |       |         | c j       | (r)         |
-| Palatal       |       |         | hy        | y           |
-| Labiovelar    |       |         | hw        | w           |
+| Palatal       |       |         | [hy]      | y           |
+| Labiovelar    |       |         | [hw]      | w           |
 | Velar         | .n    | k g     | x         |             |
 | Glottal       |       | '       | h         |             |
-| Lateral       |       |         | hl        | l           |
+| Lateral       |       |         | [hl]      | l           |
+
+Consonants in brackets (`[]`) are slated for removal
 
 That's a lot of fricatives. Should I add the bilabial one too?
 
@@ -29,7 +31,7 @@ Aspirates and ejectives are neat too... **p**, **t**, and **k** can be followed 
 
 **h** has quite a few jobs under this system. If there's ever an ambiguous situation, assume **h** is part of the digraphs **hy**, **hw**, and **hl** before aspirating the preceding plosive (or just do both and you'll be fine).
 
-TODO: Calculate the number of possible consonant clusters
+This inventory still enables thousands of intervocalic consonant clusters, according to my really rough estimates based on somewhat loose phonotactic rules. (I have a plan in place for multi-cluster roots if necessary, so that won't be an issue.)
 
 ### Vowels
 
