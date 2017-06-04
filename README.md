@@ -31,7 +31,7 @@ Aspirates and ejectives are neat too... **p**, **t**, and **k** can be followed 
 
 **h** has quite a few jobs under this system. If there's ever an ambiguous situation, assume **h** is part of the digraphs **hy**, **hw**, and **hl** before aspirating the preceding plosive (or just do both and you'll be fine).
 
-This inventory still enables thousands of intervocalic consonant clusters, according to my really rough estimates based on somewhat loose phonotactic rules. (I have a plan in place for multi-cluster roots if necessary, so that won't be an issue.)
+This inventory still enables thousands of intervocalic consonant clusters, according to my really rough estimates based on somewhat loose phonotactic rules. (I have a plan in place for multi-cluster roots if necessary, so that won't be an issue.) Gemination may or may not be needed.
 
 ### Vowels
 
@@ -40,7 +40,7 @@ Front and central vowels are unrounded; back vowels may be rounded
 |       | Front     | Central   | Back    |
 | ----- |:---------:|:---------:|:-------:|
 | High  | i /i~ɪ/   |           | u /u/   |
-| Mid   | e /ɛ/     | q /ɜ~ʌ/   | o /o~o̞/ |
+| Mid   | e /ɛ/     | .e /ɜ~ʌ/  | o /o~o̞/ |
 | Low   |           | a /a~ɑ/   |         |
 
 Yay for reasonable vowel inventory!
@@ -63,11 +63,31 @@ Altogether this yields 33 permissible vowel formations. Since **wu** and **yi** 
 
 ## Morphology
 
-For the most part, the morphology is exactly the same as 2011 Ithkuil. There are a few small changes though:
+For the most part, the morphology is exactly the same as 2011 Ithkuil. As a quick reminder, here is a list of all of 2011 Ithkuil's morphological categories:
+* Pattern/Stem/Designation
+* Case
+* Configuration/Affiliation
+* Perspective
+* Extension
+* Essence
+* Context
+* Function
+* Mood
+* Illocution
+* Phase
+* Sanction/Validation
+* Format
+* Version
+* Valence
+* Level
+* Modality
+* Aspect
+* Bias
+* Register
 
 ### Sanction and Validation
 
-Sanction and Validation have merged and split into three new categories, for now creatively called SV1, SV2, and SV3.
+Sanction and Validation have merged and split into three new categories, for now creatively called SV1, SV2, and SV3. Trustworthiness and verifiability are handled by the HSY suffix, even when SV1 is not "Hearsay."
 
 #### SV1
 
