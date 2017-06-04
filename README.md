@@ -11,17 +11,17 @@ This isn't yet set in stone, but I think this is a pretty decent subset of 2011 
 Where consonants appear in pairs, the one to the right is voiced. Otherwise, fricatives are unvoiced and all other sounds are voiced.
 
 |               | Nasal | Plosive | Fricative | Approximant |
-| ------------- |:-----:|:-------:|:---------:|:-----------:|
-| Bilabial      | m     | p b     |           |             |
-| Labio-dental  |       |         | f v       |             |
-| Dental        |       | (t d)   | .t .d     |             |
-| Alveolar      | n     | t d     | s z       | r           |
-| Post-alveolar |       |         | c j       | (r)         |
-| Palatal       |       |         | [hy]      | y           |
-| Labiovelar    |       |         | [hw]      | w           |
-| Velar         | .n    | k g     | x         |             |
-| Glottal       |       | '       | h         |             |
-| Lateral       |       |         | [hl]      | l           |
+|---------------|:-----:|:-------:|:---------:|:-----------:|
+| Bilabial      |   m   |   p b   |           |             |
+| Labio-dental  |       |         |    f v    |             |
+| Dental        |       |  (t d)  |   .t .d   |             |
+| Alveolar      |   n   |   t d   |    s z    |      r      |
+| Post-alveolar |       |         |    c j    |     (r)     |
+| Palatal       |       |         |   [hy]    |      y      |
+| Labiovelar    |       |         |   [hw]    |      w      |
+| Velar         |  .n   |   k g   |     x     |             |
+| Glottal       |       |    '    |     h     |             |
+| Lateral       |       |         |   [hl]    |      l      |
 
 Consonants in brackets (`[]`) are slated for removal
 
