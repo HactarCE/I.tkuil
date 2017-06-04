@@ -25,11 +25,11 @@ Where consonants appear in pairs, the one to the right is voiced. Otherwise, fri
 
 That's a lot of fricatives. Should I add the bilabial one too?
 
-Aspirates and ejectives are neat too... **p**, **t**, and **k** can be followed by **'** for an ejective of **h** for an aspirate. Yay! But only allowed immediately before a vowel.
+~~Aspirates and ejectives are neat too... **p**, **t**, and **k** can be followed by **'** for an ejective of **h** for an aspirate. Yay! But only allowed immediately before a vowel.~~
 
-**h** has quite a few jobs under this system. If there's ever an ambiguous situation, assume **h** is part of the digraphs **hy**, **hw**, and **hl** before aspirating the preceding plosive (or just do both and you'll be fine).
+~~**h** has quite a few jobs under this system. If there's ever an ambiguous situation, assume **h** is part of the digraphs **hy**, **hw**, and **hl** before aspirating the preceding plosive (or just do both and you'll be fine).~~
 
-This inventory still enables thousands of intervocalic consonant clusters, according to my really rough estimates based on somewhat loose phonotactic rules. (I have a plan in place for multi-cluster roots if necessary, so that won't be an issue.) Gemination may or may not be needed.
+This inventory still enables thousands of intervocalic consonant clusters, according to my really rough estimates based on somewhat loose phonotactic rules. (I have a plan in place for multi-cluster roots if necessary, so that won't be an issue.) ~~Gemination may or may not be needed.~~ Gemination is used, currently. All consonants except **h**, **y**, **w**, and plosives can be geminated.
 
 When digraphs are geminated, only the first symbol is repeated. For example, **hl** becomes **hhl* and **.n** becomes *..n*
 
