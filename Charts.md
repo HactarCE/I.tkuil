@@ -1,6 +1,6 @@
 # Charts
 
-## <a id="CVc" /> CVc
+## <a id="CVc" /> CVc<sub>1</sub>
 
 CVc conveys Case.
 
