@@ -23,6 +23,8 @@ Where consonants appear in pairs, the one to the right is voiced. Otherwise, fri
 | Glottal       |        |    '    |     h     |             |
 | Lateral       |        |         |   .l/l̥    |      l      |
 
+**r** may also be pronounced as an alveolar flap, in which case it becomes an alveolar trill when geminated.
+
 All consonants can be geminated, except for plosives, **h**, **w**, and **y**. Geminated consonants are pronounced for a slightly longer period of time.
 
 When digraphs are geminated, only the first symbol is repeated. For example, **.l** becomes **..l** and **hw** becomes **hhw**.
