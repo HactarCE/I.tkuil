@@ -203,7 +203,7 @@ CVa and VCa each convey Configuration, Affiliation, and Perspective. The consona
 
 CVc conveys Case.
 
-| CVc2 | (h) |  l̥  |   w   |   y   |
+| CVc2 | (h) |  l̥  | (x)w  | (x)y  |
 |------|:---:|:---:|:-----:|:-----:|
 | a    | OBL | COR |  INS  |  ASS  |
 | e    |  *  | ABS |  ACT  |  CNR  |
@@ -240,7 +240,9 @@ CVc conveys Case.
 
 \* Reserved for Vn and Cf
 
-If word-initial (and not part of a long form PRA), **h** may be omitted.
+If CVc word-initial (and not part of a long form PRA), **h** may be omitted.
+
+**w** and **y** are used if CVc is word-initial, otherwise **xw** and **xy** are used instead.
 
 ## CVf
 
@@ -260,22 +262,24 @@ CVf conveys Format. It may either be one of the following values, or any value f
 
 CVn conveys Version and Valence.
 
-| CVn                 | `PRC` | `CPT` | `INE` | `INC` |  `PST`  |   `EFC`   |
-|---------------------|:-----:|:-----:|:-----:|:-----:|:-------:|:---------:|
-| `MNO` Monoactive    |  ha   |  hə   |  l̥a   |  l̥ə   |  wa/ya  |   wə/yə   |
-| `PRL` Parallel      |  he   |  hiu  |  l̥e   |  l̥iu  |  we/ye  |    wiu    |
-| `CRO` Corollary     |  hi   |  hua  |  l̥i   |  l̥ua  |   wi    |    yua    |
-| `RCP` Reciprocal    |  ho   |  hue  |  l̥o   |  l̥ue  |  wo/yo  |    yue    |
-| `CPL` Complementary |  hu   |  huo  |  l̥u   |  l̥uo  |   yu    |    yuo    |
-| `NNR` Nonrelational |  hai  |  hui  |  l̥ai  |  l̥ui  | wai/yai |    yui    |
-| `DUP` Duplicative   |  hei  | haia  |  l̥ei  | l̥aia  | wei/yei | waia/yaia |
-| `DEM` Demonstrative |  hoi  | haie  |  l̥oi  | l̥aie  | woi/yoi | waie/yaie |
-| `RES` Resistive     |  hau  | haiu  |  l̥au  | l̥aiu  | wau/yau | waiu/yaiu |
-| `IMT` Imitative     |  heu  | haio  |  l̥eu  | l̥aio  | weu/yeu | waio/yaiu |
-| `CNG` Contingent    |  hoa  | heia  |  l̥oa  | l̥eia  | woa/yoa | weia/yeia |
-| `PTI` Participative |  hia  | heie  |  l̥ia  | l̥eie  |   wia   | weie/yeia |
-| `IDC` Indicative    |  hie  | heiu  |  l̥ie  | l̥eiu  |   wie   | weiu/yeiu |
-| `MUT` Mutual        |  hio  | heio  |  l̥io  | l̥eio  |   wio   | weio/yeio |
+| CVn                 | `PRC` | `CPT` | `INE` | `INC` |     `PST`     |      `EFC`      |
+|---------------------|:-----:|:-----:|:-----:|:-----:|:-------------:|:---------------:|
+| `MNO` Monoactive    |  ha   |  hə   |  l̥a   |  l̥ə   |  (x)wa/(x)ya  |   (x)wə/(x)yə   |
+| `PRL` Parallel      |  he   |  hiu  |  l̥e   |  l̥iu  |  (x)we/(x)ye  |     (x)wiu      |
+| `CRO` Corollary     |  hi   |  hua  |  l̥i   |  l̥ua  |     (x)wi     |     (x)yua      |
+| `RCP` Reciprocal    |  ho   |  hue  |  l̥o   |  l̥ue  |  (x)wo/(x)yo  |     (x)yue      |
+| `CPL` Complementary |  hu   |  huo  |  l̥u   |  l̥uo  |     (x)yu     |     (x)yuo      |
+| `NNR` Nonrelational |  hai  |  hui  |  l̥ai  |  l̥ui  | (x)wai/(x)yai |     (x)yui      |
+| `DUP` Duplicative   |  hei  | haia  |  l̥ei  | l̥aia  | (x)wei/(x)yei | (x)waia/(x)yaia |
+| `DEM` Demonstrative |  hoi  | haie  |  l̥oi  | l̥aie  | (x)woi/(x)yoi | (x)waie/(x)yaie |
+| `RES` Resistive     |  hau  | haiu  |  l̥au  | l̥aiu  | (x)wau/(x)yau | (x)waiu/(x)yaiu |
+| `IMT` Imitative     |  heu  | haio  |  l̥eu  | l̥aio  | (x)weu/(x)yeu | (x)waio/(x)yaiu |
+| `CNG` Contingent    |  hoa  | heia  |  l̥oa  | l̥eia  | (x)woa/(x)yoa | (x)weia/(x)yeia |
+| `PTI` Participative |  hia  | heie  |  l̥ia  | l̥eie  |    (x)wia     | (x)weie/(x)yeia |
+| `IDC` Indicative    |  hie  | heiu  |  l̥ie  | l̥eiu  |    (x)wie     | (x)weiu/(x)yeiu |
+| `MUT` Mutual        |  hio  | heio  |  l̥io  | l̥eio  |    (x)wio     | (x)weio/(x)yeio |
+
+If CVn is word-initial, **x** should be omitted from the `PST` and `EFC` forms. If CVn follows a vowel, **x** should be included.
 
 ## CVp
 
