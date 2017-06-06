@@ -21,7 +21,7 @@ Where consonants appear in pairs, the one to the right is voiced. Otherwise, fri
 | Labiovelar    |        |         |   hw/ẘ    |      w      |
 | Velar/uvular  |  .n/ŋ  |   k g   |     x     |             |
 | Glottal       |        |    '    |     h     |             |
-| Lateral       |        |         |   .l/l̥    |      l      |
+| Lateral       |        |         |   hl/l̥    |      l      |
 
 **r** may also be pronounced as an alveolar flap, in which case it becomes an alveolar trill when geminated.
 
