@@ -1,120 +1,10 @@
 # I.tkuil
 
-This is not [Ithkuil](http://ithkuil.net/). [Ithkuil](http://ithkuil.net/) is a constructed language by John Quijada. This is a fork of Ithkuil, designed by a completely different person, with the goal of making Ithkuil more logical and more pronounceable. It isn't not at all complete yet.
+This is not [Ithkuil](http://ithkuil.net/). [Ithkuil](http://ithkuil.net/) is a constructed language by John Quijada. This is a fork of Ithkuil, designed by a completely different person, with the goal of making Ithkuil more logical and more pronounceable. This project is not complete yet.
 
-## Phonology
+### [Phonology](Phonology.md)
 
-This isn't yet set in stone, but I think this is a pretty decent subset of 2011 Ithkuil's current phonology.
-
-### Consonants
-
-Where consonants appear in pairs, the one to the right is voiced. Otherwise, fricatives are unvoiced and all other sounds are voiced.
-
-|               | Nasal | Plosive | Fricative | Approximant |
-|---------------|:-----:|:-------:|:---------:|:-----------:|
-| Bilabial      |   m   |   p b   |           |             |
-| Labio-dental  |       |         |    f v    |             |
-| Dental        |       |  (t d)  |   .t .d   |             |
-| Alveolar      |   n   |   t d   |    s z    |      r      |
-| Post-alveolar |       |         |    c j    |     (r)     |
-| Palatal       |       |         |    hy     |      y      |
-| Labiovelar    |       |         |    hw     |      w      |
-| Velar/uvular  |  .n   |   k g   |     x     |             |
-| Glottal       |       |    '    |     h     |             |
-| Lateral       |       |         |    hl     |      l      |
-
-That's a lot of fricatives. Should I add the bilabial one too?
-
-~~Aspirates and ejectives are neat too... **p**, **t**, and **k** can be followed by **'** for an ejective of **h** for an aspirate. Yay! But only allowed immediately before a vowel.~~
-
-~~**h** has quite a few jobs under this system. If there's ever an ambiguous situation, assume **h** is part of the digraphs **hy**, **hw**, and **hl** before aspirating the preceding plosive (or just do both and you'll be fine).~~
-
-This inventory still enables thousands of intervocalic consonant clusters, according to my really rough estimates based on somewhat loose phonotactic rules. (I have a plan in place for multi-cluster roots if necessary, so that won't be an issue.) ~~Gemination may or may not be needed.~~ Gemination is used, currently. All consonants except **h**, **y**, **w**, and plosives can be geminated.
-
-When digraphs are geminated, only the first symbol is repeated. For example, **hl** becomes **hhl* and **.n** becomes *..n*
-
-The digraphs **.t**, **.d**, and **.n** may alternatively be represented as **ṭ**, **ḍ**, and **ṅ** respectively. Likewise, **hy**, **hw**, and **hl** can be represented as **ẏ**, **ẇ**, and **ḷ** respectively.
-
-### Vowels
-
-Front and central vowels are unrounded; back vowels may be rounded
-
-|       | Front     | Central   | Back    |
-| ----- |:---------:|:---------:|:-------:|
-| High  | i /i~ɪ/   |           | u /u/   |
-| Mid   | e /ɛ/     | .e /ɜ~ʌ/  | o /o~o̞/ |
-| Low   |           | a /a~ɑ/   |         |
-
-Yay for reasonable vowel inventory!
-
-Oh yeah, diphthongs:
-* ai ei oi
-* au eu
-
-Disyllabic vowel-vowel combinations:
-* ea oa
-* ia ie io iu
-* ua ue uo ui
-
-And disallabic diphthong-vowel combinations (diphthong comes first):
-* aia aie aiu aio
-* eia eie eiu eio
-* oia oie oiu oio
-
-Altogether this yields 33 permissible vowel formations. Since **wu** and **yi** are really hard to pronounce, making **u** and **i** (or any diphthongs starting with them) interchangeable yields 28.
-
-## Morphology
-
-For the most part, the morphology is exactly the same as 2011 Ithkuil. As a quick reminder, here is a list of all of 2011 Ithkuil's morphological categories:
-* Pattern/Stem/Designation
-* Case
-* Configuration/Affiliation
-* Perspective
-* Extension
-* Essence
-* Context
-* Function
-* Mood
-* Illocution
-* Phase
-* Sanction/Validation
-* Format
-* Version
-* Valence
-* Level
-* Modality
-* Aspect
-* Bias
-* Register
-
-### Sanction and Validation
-
-Sanction and Validation have merged and split into three new categories, for now creatively called SV1, SV2, and SV3. Trustworthiness and verifiability are handled by the HSY suffix, even when SV1 is not "Hearsay."
-
-#### SV1
-
-SV1 conveys the source of the information.
-
-* Direct observation
-* Inference
-* Intuition/feeling
-* Hearsay
-
-#### SV2
-
-SV2 conveys the basis of the information.
-
-* Objective fact
-* Human convention
-
-#### SV3
-
-SV3 conveys whether the information is expected to be refuted.
-
-* Axiomatic
-* Open to challenge
-* Rebuttable, but assumed to be true
-* Hypothesis/prediction
+### [Morphology](Morphology.md)
 
 ## Morpho-phonology
 
@@ -211,29 +101,6 @@ Cm3 conveys SV3:
 
 ### Slot 2
 
-* `Vi` - Pattern/Stem/Designation of incorporated root
-* `CVf` - Format
-* `Ci` - Incorporated root
-* `VCi` - Ca of incporated root
-
-Vi has exactly the same values as Vr, and may be omitted if it is word-initial and conveys `P1/S1/IFL`.
-
-CVf may either be any of one of the CVc values (with **x**, **hll**, **hw**, and **hy** instead of **h**, **l**, **w**, and **y** respectively), or it may encode Format as follows:
-
-| CVf                   |     |
-|-----------------------|:---:|
-| `SCH` Schematic       | xe  |
-| `ISR` Instrumentative | xi  |
-| `ATH` Authoritative   | xo  |
-| `RSL` Resultative     | xu  |
-| `SBQ` Subsequent      | xai |
-| `OBJ` Concomitant     | xei |
-| `AFI` Affinitive      | xoi |
-
-Ci is a consonantal root from the lexicon, which doesn't exist yet.
-
-VCi conveys the Configuration/Affiliation/Perspective of the incorporated root, and may be omitted or repeated. The vocalic component of VCi is always **.e**; the consonantal component follows `Ca`.
-
 ### Slot 3
 
 * `Vn` - Function + Illocution
@@ -243,56 +110,11 @@ Vn conveys Function and Illocution:
 | Vn                  | `STA` Stative | `DYN` Dynamic | `MNF` Manifestive | `DSC` Descriptive |
 |---------------------|---------------|---------------|-------------------|-------------------|
 | `ASR` Assertive     | e             | i             | o                 | u                 |
-| `DIR` Directive     | aia           | eia           | oia               | aua               |
+| `DIR` Directive     | aia           | aie           | aio               | aiu               |
 | `IRG` Interrogative | eia           | eie           | eio               | eiu               |
 | `ADM` Admonitive    | ai'a          | ei'a          | oi'a              | au'a              |
 | `HOR` Hortative     | oia           | oie           | oio               | oiu               |
 | `DEC` Declarative   | ai            | ei            | oi                | au                |
-
-### Slot 4
-
-* `CVc` - Case
-
-CVc conveys Case:
-
-| CVc2 | (h) |  l  |   w   |   y   |
-|------|:---:|:---:|:-----:|:-----:|
-| a    | OBL | COR |  INS  |  ASS  |
-| e    |  *  | ABS |  ACT  |  CNR  |
-| i    |  *  | AFF |  SIT  |   -   |
-| o    |  *  | ERG |  DAT  |  ASC  |
-| u    |  *  | IND |   -   |  DFF  |
-| ai   |  *  | CRS |  CON  |  PER  |
-| ei   |  *  | CPS |  EXC  |  PRO  |
-| oi   |  *  | PRD |  AVR  |  PCV  |
-| au   |  *  | MED |  CMP  |  PCR  |
-| eu   | EFF | APL |  LOC  |  ELP  |
-| oa   | POS | PUR |  ORI  |  ALP  |
-| ia   | PRP | CSD |  PSV  |   -   |
-| ie   | GEN | ESS |  ALL  |   -   |
-| io   | ATT | ASI |  ABL  |   -   |
-| iu   | PDC | FUN |  NAV  |   -   |
-| ua   | ITP | TFM |   -   |  INP  |
-| ue   | OGN | REF |   -   |  EPS  |
-| uo   | PRT | CLA |   -   |  PLM  |
-| ui   | DER | CNV |   -   |  LIM  |
-| aia  |  *  | IDP | CMP1A | CMP2A |
-| aie  |  *  | BEN | CMP3A | CMP4A |
-| aiu  |  *  | TSP | CMP5A | CMP6A |
-| aio  |  *  | CMM | CMP7A | CMP8A |
-| eia  |  *  | COM | CMP1B | CMP2B |
-| eie  |  *  | CNJ | CMP3B | CMP4B |
-| eiu  |  *  | UTL | CMP5B | CMP6B |
-| eio  |  *  | ABE | CMP7B | CMP8B |
-| oia  |  *  | CVS | CMP1C | CMP2C |
-| oie  |  *  | DEP | CMP3C | CMP4C |
-| oiu  |  *  | PVS | CMP5C | CMP6C |
-| oio  |  *  | PTL | CMP7C | CMP8C |
-| .e   | VOC |     |       |  SML  |
-
-\* Reserved for Vn and Cf
-
-The vowels along the left of the chart are concatenated to the consonants along the top.
 
 ### Slot 5
 
