@@ -11,8 +11,8 @@
 
 The formative has had a complete overhaul compared to 2011 Ithkuil. It now consists of eight slots:
 
-1. [Case](formative_slot_1.md)
-2. [(Sanction/Validation/Basis/Mood OR Aspect) + Function + Illocution](formative_slot_2.md)
+1. [(Sanction/Validation/Mood OR Aspect) + Function + Illocution](formative_slot_1.md)
+2. [Case](formative_slot_2.md)
 3. [Incorporated root](formative_slot_3.md)
 4. [Main root + Pattern/Stem/Designation](formative_slot_4.md)
 5. [Version + Valence](formative_slot_5.md)
@@ -23,11 +23,11 @@ The formative has had a complete overhaul compared to 2011 Ithkuil. It now consi
 
 Slots 5, 6, and 9 are required, and either slot 1 or slot 2 must be present.
 
-Slots 3 and 5 cannot exist without slot 3.
+Slots 3 and 5 cannot exist without slot 1.
 
-Slots 1, 3, and 7 may be repeated.
+Slots 2, 3, and 7 may be repeated.
 
-The presence of slot 1 without slot 3 indicates that the formative is operating as a noun. Slot 3 without slot 1 indicates that the formative is operating as a main verb. The combined presence of slot 1 and slot 3 means one of two things:
+The presence of slot 2 without slot 1 indicates that the formative is operating as a noun. Slot 1 without slot 2 indicates that the formative is operating as a main verb. The combined presence of slot 1 and slot 2 means one of two things:
 
 * If the formative has a suffix that transforms a verb into a noun (e.g. `ROL`), the formative is operating as a noun
 * Otherwise, the formative is operating as a framed verb
