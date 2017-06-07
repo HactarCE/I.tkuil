@@ -204,8 +204,8 @@ CVa and VCa each convey Configuration, Affiliation, and Perspective. The consona
 CVc conveys Case. There are two variants of CVc, labelled CVca and CVcb. CVca and CVcb have the same vocalic patterning; the consonantal differences are illustrated below.
 
 | CVca | (h) |  l̥  | (x)w  | (x)y  |
-| CVcb |  x  | 
 |------|:---:|:---:|:-----:|:-----:|
+| CVcb |  x  | xx  |  hw   |  hy   |
 | a    | OBL | COR |  INS  |  ASS  |
 | e    |  *  | ABS |  ACT  |  CNR  |
 | i    |  *  | AFF |  SIT  |   -   |
