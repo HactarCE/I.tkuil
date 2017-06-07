@@ -2,5 +2,5 @@
 
 Slot 4 is required.
 
-* [Cr - Root](Charts.md#Cr)
-* [Vr - Pattern/Stem/Designation](Charts.md#Vr)
+* [Cr - Root](charts.md#Cr)
+* [Vr - Pattern/Stem/Designation](charts.md#Vr)
