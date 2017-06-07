@@ -201,9 +201,10 @@ CVa and VCa each convey Configuration, Affiliation, and Perspective. The consona
 
 ## CVc
 
-CVc conveys Case.
+CVc conveys Case. There are two variants of CVc, labelled CVca and CVcb. CVca and CVcb have the same vocalic patterning; the consonantal differences are illustrated below.
 
-| CVc2 | (h) |  l̥  | (x)w  | (x)y  |
+| CVca | (h) |  l̥  | (x)w  | (x)y  |
+| CVcb |  x  | 
 |------|:---:|:---:|:-----:|:-----:|
 | a    | OBL | COR |  INS  |  ASS  |
 | e    |  *  | ABS |  ACT  |  CNR  |
@@ -240,13 +241,13 @@ CVc conveys Case.
 
 \* Reserved for Vn and Cf
 
-If CVc word-initial (and not part of a long form PRA), **h** may be omitted.
+If CVca is word-initial (and not part of a long form PRA), **h** may be omitted.
 
 **w** and **y** are used if CVc is word-initial, otherwise **xw** and **xy** are used instead.
 
 ## CVf
 
-CVf conveys Format. It may either be one of the following values, or any value from [CVc](#CVc), replacing **h**, **l̥**, **w**, and **y** with **x**, **l̥l̥**, **ẘ**, and **ẙ** respectively. (Word-inital **x** _is_ required, unlike word-initial **h**.)
+CVf conveys Format. It may either be one of the following values, or any value from [CVcb](#cvc), 
 
 | CVf                   |     |
 |-----------------------|:---:|
