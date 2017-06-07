@@ -4,4 +4,4 @@ If [slot 1](formative_slot_1.md) is absent, slot 2 is required.
 
 Slot 2 may be repeated.
 
-* [CVc - Case](Charts.md#CVc)
+* [CVca - Case](Charts.md#CVc)
