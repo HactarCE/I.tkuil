@@ -286,7 +286,7 @@ If CVn is word-initial, **x** should be omitted from the `PST` and `EFC` forms. 
 
 CVp conveys a PRA referent
 
-TODO (use restricted consonants **x**, **l̥l̥*, **hw**, and **hy**)
+TODO (use restricted consonants **x**, **l̥l̥**, **hw**, and **hy**)
 
 See also: [Cp](#cp)
 
