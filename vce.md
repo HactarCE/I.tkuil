@@ -9,7 +9,7 @@
 * [VCe_t - `IRG` or `ADM` illocution + Function + Mood](#vce_t)
 * [VCe_v - `DIR`, `HOR`, or `DEC` illocution + Function](#vce_v)
 
-VCe is the most powerful affix, encoding any valid combination of Case, Function, Illocution, Sanction, Validation, and Mood. It has a total of 5104 potential values, but remains extremely regular. The different values of VCe are grouped below by Illocution. Where vowels and consonants are listed in separate charts, VCe is formed by concatenating the two (with the vowel first).
+VCe is the most powerful affix, encoding any valid combination of Case, Function, Illocution, Sanction, Validation, and Mood. It has a total of 5104 potential values, but remains extremely regular.
 
 The following forms of VCe are permitted:
 
