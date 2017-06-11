@@ -314,4 +314,10 @@ VCv3 encodes Valence.
 
 ### VxC
 
-VxC conveys a single derivational suffix. The consonantal portion may be any suffix from the [suffix list](#suffixes.md)
+VxC conveys a single derivational suffix. The consonantal portion may be any suffix from the [suffix list](#suffixes.md). The vocalic component encodes suffix type and degree.
+
+| Vx     |   1   |   2   |   3   |   4   | 5  |  6  |  7  |  8  |  9  |
+|--------|:-----:|:-----:|:-----:|:-----:|:--:|:---:|:---:|:---:|:---:|
+| Type 1 |  oi   |  ai   |  ei   |  i/u  | a  |  e  | eu  | au  |  o  |
+| Type 2 | io/uo | ia/ua | ie/ue | iu/ui | ea | aiu | aie | aia | aio |
+| Type 3 |  eio  |  eia  |  eie  |  eiu  | oa | oiu | oie | oia | oio |
