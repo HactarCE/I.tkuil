@@ -100,11 +100,11 @@ The carrier word is a shortened form of the carrier root from 2011 Ithkuil, whic
 
 The carrier word is formed using a personal reference adjunct with one of the following values in place of Cn.
 
-| Carried word     | Cn replacement |
-|------------------|:--------------:|
-| Animate being    |       sk       |
-| Inanimate entity |      rsk       |
-| Abstract concept |      lsk       |
+| Carried word               | Cn replacement |
+|----------------------------|:--------------:|
+| Animate being (`P1/S1`)    |       sk       |
+| Inanimate entity (`P1/S2`) |      rsk       |
+| Abstract concept (`P1/S3`) |      lsk       |
 
 ## Register Placeholder
 
