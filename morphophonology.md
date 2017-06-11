@@ -73,10 +73,10 @@ Verbal adjuncts must appear immediately before or after the formative they modif
 
 Personal reference adjuncts (PRAs) operate similarly to pronouns of other languages. Unlike in 2011 Ithkuil, there is only one PRA structure, with six slots.
 
-|              I               |         II          |          III          |              IV              |                      V                      |                     VI                     |
-|:----------------------------:|:-------------------:|:---------------------:|:----------------------------:|:-------------------------------------------:|:------------------------------------------:|
-| [ [CVca](affixes.md#cvc) ]\* | [Cn](affixes.md#cn) | ( [Vg](affixes.md#cg) | ( [VxC](affixes.md#vxc) )* ) | [[stress]](essence_and_register.md#essence) | [[tone]](essence_and_register.md#register) |
-|             Case             |      Referent       |     Configuration     |        Deriv. suffix         |                   Essence                   |                  Register                  |
+|              I               |         II          |            III             |           IV            |                      V                      |                     VI                     |
+|:----------------------------:|:-------------------:|:--------------------------:|:-----------------------:|:-------------------------------------------:|:------------------------------------------:|
+| [ [CVca](affixes.md#cvc) ]\* | [Cn](affixes.md#cn) | ( [VxC](affixes.md#vxc) )* | ( [Vg](affixes.md#cg) ) | [[stress]](essence_and_register.md#essence) | [[tone]](essence_and_register.md#register) |
+|             Case             |      Referent       |       Deriv. suffix        |      Configuration      |                   Essence                   |                  Register                  |
 
 Groups in square brackets are required.  
 Groups in round parentheses are optional.  
@@ -84,14 +84,13 @@ Groups marked with an asterisk may be repeated.
 
 I. Case  
 II. Referent  
-III. Configuration
-IV. Derivational suffix
+III. Derivational suffix
+IV. Configuration
 V. Essence
 VI. Register
 
 * Slots I and II are required.
-* Slot IV cannot exist without slot III.
-* Slots I and IV may be repeated.
+* Slots I and III may be repeated.
 
 ## Parsing Words
 
