@@ -21,6 +21,12 @@ The following forms of VCe are permitted:
 | [VCe_ta](#vce_t) + [VCe_tb](#vce_t)                                         | verb with `IRG` or `ADM` illocution         |
 | [VCe_va](#vce_v) + [VCe_vb](#vce_v)                                         | verb with `DIR`, `HOR`, or `DEC` illocution |
 
+* If VCe conveys null Function, then the formative is a noun
+* If VCe conveys Function, but not Case, then the formative is a verb
+* If VCe conveys both Case and Function, then...
+  * If the formative carries a type 2 suffix that transforms a verb into a noun (e.g. `ROL`), then the formative is operating as a noun
+  * Otherwise the formative is operating as a framed verb
+
 ## VCe_c
 
 VCe_c works in conjunction with VCe_m1 to convey Case.
