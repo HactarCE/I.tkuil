@@ -5,6 +5,8 @@
 * [Personal Reference Adjunct](#personal-reference-adjunct)
   * [Short Form](#short-form)
   * [Long Form](#long-form)
+* [Carrier Word](#carrier-word)
+* [Register Placeholder](#register-placeholder)
 * [Parsing Words](#parsing-words)
 
 ## Formative
@@ -91,6 +93,22 @@ VI. Register
 
 * Slots I and II are required.
 * Slots I and III may be repeated.
+
+## Carrier Word
+
+The carrier word is a shortened form of the carrier root from 2011 Ithkuil, which can be used for names and loanwords. The carrier word can only be used in place of a formative if it is a noun; otherwise, an actual formative must be used.
+
+The carrier word is formed using a personal reference adjunct with one of the following values in place of Cn.
+
+| Carried word     | Cn replacement |
+|------------------|:--------------:|
+| Animate being    |       sk       |
+| Inanimate entity |      rsk       |
+| Abstract concept |      lsk       |
+
+## Register Placeholder
+
+The word **o** may be used as a placeholder to convey the morphological category of [Register](#essence_and_register.md#register). It can also be used to draw attention to the following word(s).
 
 ## Parsing Words
 
