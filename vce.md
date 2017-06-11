@@ -61,8 +61,8 @@ VCe_f conveys Function and works in conjunction with VCe_c to convey Case.
 | (no function)     | l  | r  | p/b | t/d | k/g |
 | `STA` Stative     | s  | f  | ps  | ts  | ks  |
 | `DYN` Dynamic     | z  | v  | bz  | dz  | gz  |
-| `MNF` Manifestive | c  | .t | pc  | tc  | kc  |
-| `DSC` Descriptive | j  | .d | bj  | dj  | gj  |
+| `MNF` Manifestive | c  | ţ  | pc  | tc  | kc  |
+| `DSC` Descriptive | j  | ḑ  | bj  | dj  | gj  |
 
 ## VCe_m1
 
@@ -73,9 +73,9 @@ VCe_m1 conveys Mood. VCe_m1 is only permitted if VCe is word-final; otherwise, [
 | `FAC` Factual        |   -    |
 | `SUB` Subjunctive    |   r    |
 | `ASM` Assumptive     |   l    |
-| `SPC` Speculative    |   m    |
-| `COU` Counterfactive |   n    |
-| `HYP` Hypothetical   |   ŋ    |
+| `SPC` Speculative    |   ŋ    |
+| `COU` Counterfactive |   m    |
+| `HYP` Hypothetical   |   n    |
 | `IPL` Implicative    |  r m   |
 | `ASC` Ascriptive     |  r n   |
 
@@ -118,10 +118,10 @@ VCe_n conveys Sanction and Validation.
 | `ALG` Allegative    |   z   | zd/dz |  mc   |  mct  |  mcp  |  mck  |
 | `IPU` Imputative    |   c   | ck/kc |   n   |  nt   |  np   |  nk   |
 | `RFU` Refutative    |   j   | sk/ks |  ns   |  nst  |  nsp  |  nsk  |
-| `REB` Rebuttative   |  .t   | zg/gz |  nc   |  nct  |  ncp  |  nck  |
-| `THR` Theoretical   |  .d   | cp/pc |  .n   |  .nt  |  .np  |  .nk  |
-| `EXV` Expatiative   |   f   | sp/ps |  .ns  | .nst  | .nsp  | .nsk  |
-| `AXM` Axiomatic     |   v   | zb/bz |  .nc  | .nct  | .ncp  | .nck  |
+| `REB` Rebuttative   |   ţ   | zg/gz |  nc   |  nct  |  ncp  |  nck  |
+| `THR` Theoretical   |   ḑ   | cp/pc |   ŋ   |  ŋt   |  ŋp   |  ŋk   |
+| `EXV` Expatiative   |   f   | sp/ps |  ŋs   |  ŋst  |  ŋsp  |  ŋsk  |
+| `AXM` Axiomatic     |   v   | zb/bz |  ŋc   |  ŋct  |  ŋcp  |  ŋck  |
 
 VCe_n may be left blank if it conveys `CNF/PPS` and one of the following conditions is met:
 * Neither [VCe_m1](#vce_m1) nor [VCe_m2](#vce_m2) is present
