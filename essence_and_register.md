@@ -13,18 +13,18 @@
 | Disyllabic (2)    | penultimate stress | ultimate stress        |
 | Polysyllabic (≥3) | penultimate stress | antepenultimate stress |
 
-If a word has Representative essence and falling tone (see below), the stressed vowel is marked with an acute (`ápal`) or prefixed with an exclamation mark (`!apal`).
+If a word has Representative essence, the stressed vowel is marked with an acute accent (`apál`) or prefixed with an exclamation mark (`ap!al`). If a diphthong is stressed, only the first vowel is marked. Normal essence is unmarked.
 
 ## Register
 
 All words have Register, which is conveyed by tone:
 
-| Register              | Tone               |
-|-----------------------|--------------------|
-| `NRR` Narrative       | falling (1)        |
-| `DSV` Discursive      | high (2)           |
-| `PTH` Parenthetical   | low (3)            |
-| `COG` Cogitant        | falling-rising (4) |
-| `IPR` Impressionistic | rising-falling (5) |
+| Register              | Tone               | Unicode marking | ASCII-compatible marking |
+|-----------------------|--------------------|:---------------:|:------------------------:|
+| `NRR` Narrative       | falling (1)        |     (none)      |          (none)          |
+| `DSV` Discursive      | high (2)           |       `˥`       |           `-`            |
+| `PTH` Parenthetical   | low (3)            |       `˩`       |           `_`            |
+| `COG` Cogitant        | falling-rising (4) |       `˧˨˦`       |           `~`            |
+| `IPR` Impressionistic | rising-falling (5) |       `˧˦˨`       |           `^`            |
 
-If a word does not have falling tone, tone is marked with a number before the stressed vowel (`ap2al`). If the word has Representative essence, the tone number is used instead of an exclamation mark or acute accent.
+If a word does not have falling tone, tone is marked by prefixing the word with one of the corresponding symbols above.

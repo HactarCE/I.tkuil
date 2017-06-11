@@ -9,77 +9,89 @@
 
 ## Formative
 
-The formative has had a complete overhaul compared to 2011 Ithkuil. It now consists of eight slots:
+Formatives are the nouns and verbs of Ithkuil, and are the most useful and powerful parts of speech. Formatives have had a complete overhaul since 2011 Ithkuil. Each now consists of ten slots.
 
-1. [(Sanction/Validation/Mood OR Aspect) + Function + Illocution](formative_slot_1.md)
-2. [Case](formative_slot_2.md)
-3. [Incorporated root](formative_slot_3.md)
-4. [Main root + Pattern/Stem/Designation](formative_slot_4.md)
-5. [Version + Valence](formative_slot_5.md)
-6. [Configuration/Affiliation/Perspective](formative_slot_6.md)
-7. [Derivational suffix](deriv_suffix.md)
-8. [Context + Extension](formative_slot_8.md)
-9. [Essence + Register](essence_and_register.md)
+|                                  1a                                   |                    1b                     |           2           |          3          |                          4                           |                      5                      |                              6                               |           7           |             8             |                      9                      |                     10                     |
+|:---------------------------------------------------------------------:|:-----------------------------------------:|:---------------------:|:-------------------:|:----------------------------------------------------:|:-------------------------------------------:|:------------------------------------------------------------:|:---------------------:|:-------------------------:|:-------------------------------------------:|:------------------------------------------:|
+| ( ( [CVf](affixes.md#cvf) + [Ci](affixes.md#ci) + [Vi](affixes.md#vi) | ( + [CVa](affixes.md#cva-and-vca) )\* )\* | [Ca](affixes.md#ca) ) | [Vr](affixes.md#vr) | ( [CVca](affixes.md#cvc) / [CVs](affixes.md#cvs) )\* | [Cr](affixes.md#cr) + [VCe](affixes.md#vce) | ( [VxC](deriv_suffix.md) / [VCa](affixes.md#cva-and-vca) )\* | ( [Vt](affixes.md#vt) | ( [Cv](affixes.md#cv) ) ) | [[stress]](essence_and_register.md#essence) | [[tone]](essence_and_register.md#register) |
+|                           Incorporated root                           |         CAP of Incorporated root          |          CAP          |         PSD         |              Additional Case or Aspect               |            Main root + CFI + SVM            |               Deriv. suffix or additional CAP                |  Context + Extension  |     Version + Valence     |                   Essence                   |                  Register                  |
 
-Slots 5, 6, and 9 are required, and either slot 1 or slot 2 must be present.
+Parenthetical groups of affixes are optional and interdependent.  
+Groups marked with an asterisk may be repeated.
 
-Slots 3 and 5 cannot exist without slot 1.
+CAP = Configuration + Affiliation + Perspective  
+PSD = Pattern + Stem + Designation  
+CFI = Case + Function + Illocution  
+SVM = Sanction + Validation + Mood
 
-Slots 2, 3, and 7 may be repeated.
+1\. Incorporated root  
+2\. CAP of main root  
+3\. PSD of main root  
+4\. Additional Case or Aspect  
+5\. Main root + CFI + SVM  
+6\. Derivational suffix or additional CAP  
+7\. Context + Extension  
+8\. Version + Valence  
+9\. Essence
+10\. Register
 
-The presence of slot 2 without slot 1 indicates that the formative is operating as a noun. Slot 1 without slot 2 indicates that the formative is operating as a main verb. The combined presence of slot 1 and slot 2 means one of two things:
+* Slots 3, 5, 9, and 10 are required.
+* Slot 1 cannot exist without slot 2.
+* Slot 8 cannot exist without slot 7.
+* Slots 1, 4, and 6 may be repeated.
+* Within slot 1, only slot 1a is required. Slot 1b is optional and may be repeated.
 
-* If the formative has a suffix that transforms a verb into a noun (e.g. `ROL`), the formative is operating as a noun
-* Otherwise, the formative is operating as a framed verb
+Unlike in 2011 Ithkuil, case-frame is not an overt morphological category, but is inferred based on the following rules:
 
-Phase and Level are conveyed using the existing `PHS` and `LVL` suffixes respectively from 2011 Ithkuil. Modality will be conveyed using a slew of new Modality suffixes. Aspect will be conveyed using a new aspectual adjunct.
+* If VCe conveys null Function, then the formative is a noun
+* If VCe conveys Function, but not Case, then the formative is a verb
+* If VCe conveys both Case and Function, then...
+  * If the formative carries a type 2 suffix that transforms a verb into a noun (e.g. `ROL`), then the formative is a noun
+  * Otherwise the formative is a framed verb
 
 ## Verbal Adjunct
 
-1. [Aspect](verbal_adjunct_aspect.md)
-2. [Modality](verbal_adjunct_modality.md)
-3. [Aspect](verbal_adjunct_aspect.md)
-4. [Register](essence_and_register.md#register)
+Verbal adjuncts supply extra information about adjacent verbal formatives.
 
-Slots 2 and 3 are required.
+|          A          |             B              |               C                |                     D                      |
+|:-------------------:|:--------------------------:|:------------------------------:|:------------------------------------------:|
+| [Cm](affixes.md#cm) | [Vs](affixes.md#cs-and-vs) | ( [Cs](affixes.md#cs-and-vs) ) | [[tone]](essence_and_register.md#register) |
+|      Modality       |           Aspect           |             Aspect             |                  Register                  |
+
+Parenthetical groups of affixes are optional.
+
+A. Modality  
+B. Aspect  
+C. Aspect  
+D. Register
+
+* Slots A, B, and D are required.
+
+Verbal adjuncts must appear immediately before or after the formative they modify. If a verbal adjunct is placed directly between two verbal formatives, it modifies the one before it. Up to two verbal adjuncts may be used if necessary, in which case the preceding one is conceptually applied first.
 
 ## Personal Reference Adjunct
 
-Personal reference adjuncts (PRAs) are much akin to pronouns of other languages.
+Personal reference adjuncts (PRAs) operate similarly to pronouns of other languages. Unlike in 2011 Ithkuil, there is only one PRA structure, with six slots.
 
-There are two PRA variants, the short form and long form. The short form is only capable of conveying case and a single referent. The long form is able to convey multiple referents, as well as configuration, essence, and suffixes for one of them.
+|              I               |         II          |          III          |              IV              |                      V                      |                     VI                     |
+|:----------------------------:|:-------------------:|:---------------------:|:----------------------------:|:-------------------------------------------:|:------------------------------------------:|
+| [ [CVca](affixes.md#cvc) ]\* | [Cn](affixes.md#cn) | ( [Vg](affixes.md#cg) | ( [VxC](affixes.md#vxc) )* ) | [[stress]](essence_and_register.md#essence) | [[tone]](essence_and_register.md#register) |
+|             Case             |      Referent       |     Configuration     |        Deriv. suffix         |                   Essence                   |                  Register                  |
 
-### Short Form
+Groups in square brackets are required.  
+Groups in round parentheses are optional.  
+Groups marked with an asterisk may be repeated.
 
-1. [Case](pra_short_slot_1.md)
-2. [Referent](pra_short_slot_2.md)
-3. [Register](essence_and_register.md#register)
+I. Case  
+II. Referent  
+III. Configuration
+IV. Derivational suffix
+V. Essence
+VI. Register
 
-Slots 2 and 3 are required.
-
-Slot 1 may be repeated.
-
-### Long Form
-
-1. Referent - CVf + CV affix with restricted values h, l̥, w, y  
-  1a. [Case](pra_long_slot_1a.md)  
-  1b. [Referent](pra_long_slot_1b.md)
-2. [Configuration](pra_long_slot_2.md)
-3. [Derivational suffixes](deriv_suffix.md)
-4. [Essence + Register](essence_and_register.md)
-
-Slot 1 is required and may be repeated.
-
-Within slot 1, slots 1a and 1b are both required. Slot 1a may be repeated.
-
-For phonetic reasons, slot 2 cannot be present without either slot 3 or slot 4. Additionally, slot 3 and slot 4 each require the presence of slot 2. In other words, the long form PRA has four possible instantiations:
-
-* Slot 1
-* Slots 1, 2, and 3
-* Slots 1, 2, and 4
-* Slots 1, 2, 3, and 4
-
-Configuration, Essence, and suffixes apply to only the final referent.
+* Slots I and II are required.
+* Slot IV cannot exist without slot III.
+* Slots I and IV may be repeated.
 
 ## Parsing Words
 

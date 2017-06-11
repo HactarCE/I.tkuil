@@ -8,4 +8,4 @@ This is not [Ithkuil](http://ithkuil.net/). [Ithkuil](http://ithkuil.net/) is a 
 
 ### [Morphophonology](morphophonology.md)
 
-### [Charts](charts.md)
+### [Affixes](affixes.md)

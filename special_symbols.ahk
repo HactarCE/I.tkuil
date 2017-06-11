@@ -1,10 +1,13 @@
 ﻿/*
  *  USAGE INSTRUCTIONS
  *  Ctrl + Win + period     Exit
- *  Win + period            ə ŋ ţḑ l̥ẘẙ
+ *  Win + period            ə ŋ ţ ḑ l̥ ẘ ẙ
+ *  Win + /                 á é í ó ú
+ *
  *  Type using the normal orthography, but press Win + period instead of just
- *  period. This script will not work in some programs, such as Google Chrome,
- *  unless it is given administrator privelages.
+ *  period, or press Win + / before a vowel to stress that vowel. This script
+ *  will not work in some programs, such as Google Chrome unless it is run with
+ *  administrator privelages.
  */
 
 #InstallKeybdHook
@@ -34,7 +37,12 @@ ExitApp
 
 #.::
 inputMode := 1
-ToolTip ə ŋ ţḑ l̥ẘẙ
+ToolTip ə ŋ ţ ḑ l̥ ẘ ẙ
+Return
+
+#/::
+inputMode := 2
+ToolTip á é í ó ú
 Return
 
 #If inputMode
@@ -43,7 +51,7 @@ inputMode := 0
 ToolTip
 Return
 
-#If inputMode
+#If inputMode = 1
 *e::typeChar("ə")
 *n::typeChar("ŋ")
 *t::typeChar("ţ")
@@ -51,3 +59,10 @@ Return
 *l::typeChar("l̥")
 *w::typeChar("ẘ")
 *y::typeChar("ẙ")
+
+#If inputMode = 2
+*a::typeChar("á")
+*e::typeChar("é")
+*i::typeChar("í")
+*o::typeChar("ó")
+*u::typeChar("ú")

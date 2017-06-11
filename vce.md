@@ -33,7 +33,7 @@ VCe_c works in conjunction with VCe_m1 to convey Case.
 
 **C1**-**C5** in the table below correspond to columns in [VCe_f](#vce_f).
 
-| VCE_c |   C1    |   C2    |   C3    |   C4    |    C5    |
+| VCe_c |   C1    |   C2    |   C3    |   C4    |    C5    |
 |-------|:-------:|:-------:|:-------:|:-------:|:--------:|
 | a     | case 1  | case 21 | case 41 | case 61 | case 81  |
 | e     | case 2  | case 22 | case 42 | case 62 | case 82  |
@@ -55,6 +55,8 @@ VCe_c works in conjunction with VCe_m1 to convey Case.
 | oie   | case 18 | case 38 | case 58 | case 78 | case 98  |
 | oiu   | case 19 | case 39 | case 59 | case 79 | case 99  |
 | oio   | case 20 | case 40 | case 60 | case 80 | case 100 |
+
+Compare to [CVc](affixes.md#cvc).
 
 ## VCe_f
 

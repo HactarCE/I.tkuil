@@ -4,7 +4,16 @@
 * [Vowels](#vowels)
 * [Tones](#tones)
 
-For convenience, here are all of the special specials this system uses: `ə ŋ ţ ḑ l̥ ẘ ẙ Ə Ŋ Ţ Ḑ L̥ W̊ Y̊` If you're using Windows, you might want to check out [this AutoHotkey script](special_symbols.ahk).
+For convenience, here are all of the special specials this system uses:
+
+```
+ə ŋ ţ ḑ l̥ ẘ ẙ
+Ə Ŋ Ţ Ḑ L̥ W̊ Y̊
+á é í ó ú
+Á É Í Ó Ú
+```
+
+If you're using Windows, you can use [this AutoHotkey script](special_symbols.ahk) to type those symbols.
 
 ## Consonants
 
@@ -27,7 +36,7 @@ Where consonants appear in pairs, the one to the right is voiced. Otherwise, fri
 
 All consonants can be geminated, except for plosives, **h**, **w**, and **y**. Geminated consonants are pronounced for a slightly longer period of time.
 
-When digraphs are geminated, only the first symbol is repeated. For example, **.l** becomes **..l** and **hw** becomes **hhw**.
+When digraphs are geminated, only the first symbol is repeated. For example, **.n** becomes **..n** and **hw** becomes **hhw**.
 
 Word-initial nasals followed by a plosive or fricative are syllabic, as well as word-initial **l** when not followed immediately by a vowel.
 
