@@ -280,7 +280,7 @@ VCe encodes any valid combination of Case, Function, Illocution, Sanction, Valid
 
 VCv encodes Version and Valence. It is split into three parts: VCv1, VCv2, and VCv3.
 
-VCv1 is always **'ə**.
+VCv1 is always **ə**.
 
 VCv2 encodes Version.
 
