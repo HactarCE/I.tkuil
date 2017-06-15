@@ -265,7 +265,7 @@ Compare to [VCe_c](vce.md#vce_c).
 
 ## CVf
 
-CVf conveys Format. It may either be one of the following values, or any vale from [CVcb](#cvcb).
+CVf conveys Format. It may either be one of the following values, or any value from [CVcb](#cvcb).
 
 | Format                | CVf  |
 |-----------------------|:----:|
