@@ -34,7 +34,7 @@ ca1 <- [[mnŋ]]
 ca2 <- [[lszpbkgfvtdcjţḑ]] / "sp" / "sk" / "st"
 ca3 <- [[rwy]]
 
-ci <- consonant*
+ci <- cr
 
 cm <- [[lpbkgtdfvszcjţḑmnŋr]] / "pr" / "rp" / "br" / "rb" / "kr" / "rk" / "gr" / "rg" / "tr" / "rt" / "dr" / "rd" / "fr" / "rf" / "vr" / "rv" / "cr" / "rc" / "jr" / "rj" / "sp" / "ps" / "sk" / "ks"
 
@@ -42,7 +42,7 @@ cn <- &consonant cn1? cn2? / "sk" / "rsk" / "lsk"
 cn1 <- [[lr]]
 cn2 <- [[mnŋpbtdkgszcjfvţḑfx]] / "ps" / "ts" / "pc" / "tc" / "lx" / "rx"
 
-cr <- c1
+cr <- c1 ( shwa consonat+ )?
 
 cs <- c1
 
