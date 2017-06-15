@@ -18,16 +18,21 @@ The following forms of VCe are permitted:
 | [VCe_c](#vce_c) + [VCe_f](#vce_f)                                           | noun or framed verb                         |
 | [VCe_c](#vce_c) + [VCe_m1](#vce_m1) + [VCe_f](#vce_f)                       | framed verb (word-final)                    |
 | [VCe_c](#vce_c) + [VCe_m2a](#vce_m2) + [VCe_f](#vce_f) + [VCe_m2b](#vce_m2) | framed verb (intervocalic)                  |
-| [VCe_a](#vce_a) + [VCe_m1](#vce_m1) + [VCe_n](#vce_n)                       | verb with `ASR` illocution (word-final)     |
 | [VCe_a](#vce_a) + [VCe_m2a](#vce_m2) + [VCe_n](#vce_n) + [VCe_m2b](#vce_m2) | verb with `ASR` illocution (intervocalic)   |
 | [VCe_ta](#vce_t) + [VCe_tb](#vce_t)                                         | verb with `IRG` or `ADM` illocution         |
 | [VCe_va](#vce_v) + [VCe_vb](#vce_v)                                         | verb with `DIR`, `HOR`, or `DEC` illocution |
+
+\* If a formative carries Assertive illocution and non-Factual mood, VCe must be followed by a vowel
 
 * If VCe conveys null Function, then the formative is a noun
 * If VCe conveys Function, but not Case, then the formative is a verb
 * If VCe conveys both Case and Function, then...
   * If the formative carries a type 2 suffix that transforms a verb into a noun (e.g. `ROL`), then the formative is operating as a noun
   * Otherwise the formative is operating as a framed verb
+
+VCe has the following irregular forms:
+
+* `CNF/SPC` is **xr** instead of **rlr**
 
 ## VCe_c
 
@@ -93,8 +98,6 @@ VCe_m1 conveys Mood. VCe_m1 is only permitted if VCe is word-final; otherwise, [
 
 VCe_m2 conveys Mood. It is split into two parts: VC_m2a and VC_m2b. VCe_m2 is only permitted if VCe is followed by a vowel or conveys Factual or Subjunctive Mood; otherwise, [VCe_m1](#vce_m1) should be used.
 
-For the special case where VCe_m2a + [VCe_n](#vce_n) + VCe_m2b results in **rlr**, **xr** is used instead.
-
 | Mood                 | VC_m2a | VC_m2b |
 |----------------------|:------:|:------:|
 | `FAC` Factual        |   -    |   -    |
@@ -133,7 +136,9 @@ VCe_n conveys Sanction and Validation.
 | `EXV` Expatiative   |   f   | sp/ps |  ŋs   |  ŋst  |  ŋsp  |  ŋsk  |
 | `AXM` Axiomatic     |   v   | zb/bz |  ŋc   |  ŋct  |  ŋcp  |  ŋck  |
 
-\* VCe_n may be left blank if it conveys `CNF/PPS`, the formative carries Factual or Subjunctive mood, and VCe is word-final.
+\* VCe_n may be omitted if it conveys `CNF/PPS` and one of the following conditions is met:
+* The formative carries Factual mood and VCe is word-final
+* The formative carries Subjunctive mood
 
 ## VCe_t
 
