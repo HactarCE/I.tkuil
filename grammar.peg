@@ -1,0 +1,109 @@
+// WORD TYPES
+
+word <- register? (formative
+      / verbal_adjunct
+      / personal_adjunct
+      / vxc
+      / bias
+      / register_placeholder) endOfInput
+
+tone <- '˥' / '-' / '¯' / '˩' / '_' / '˧˨˦' / '~' / 'ˇ' / '˧˦˨' / '^' / '˧˦˥' / '/'
+
+consonant <- [[bcdḑfghjkll̥mnŋprstţvwhwẘxyhyẙz]] / ".d" / ".l" / ".n"
+
+c1 <- !( (c2 / c3) !consonant ) consonant+
+c2 <- [[hx]] / "hw" / "hy"
+c3 <- [[l̥]] / "xl" / "xw" / "xy"
+
+vowel <- [[aeəiou]] / ".e"
+
+shwa <- "ə" / ".e"
+
+v1 <- v2 / shwa
+v2 <- v3 / v4 / [[ae]] "u"
+v3 <- [[aeiou]] / [[aeo]] "i" / "e" [[ao]] / "o" [[ae]] / [[aeo]] "i" [[aeou]]
+v4 <- [[iu]] [[aeo]] / "iu" / "ui"
+
+
+
+// AFFIXES //
+
+ca_wordInitial <- ca2? ca3? / ca1 '-'? ca3? / ca1 '-' ca2 ca3?
+ca <- &consonant ![[wy]] ca1? ca2? ca3?
+ca1 <- [[mnŋ]]
+ca2 <- [[lszpbkgfvtdcjţḑ]] / "sp" / "sk" / "st"
+ca3 <- [[rwy]]
+
+ci <- consonant*
+
+cm <- [[lpbkgtdfvszcjţḑmnŋr]] / "pr" / "rp" / "br" / "rb" / "kr" / "rk" / "gr" / "rg" / "tr" / "rt" / "dr" / "rd" / "fr" / "rf" / "vr" / "rv" / "cr" / "rc" / "jr" / "rj" / "sp" / "ps" / "sk" / "ks"
+
+cn <- &consonant cn1? cn2? / "sk" / "rsk" / "lsk"
+cn1 <- [[lr]]
+cn2 <- [[mnŋpbtdkgszcjfvţḑfx]] / "ps" / "ts" / "pc" / "tc" / "lx" / "rx"
+
+cr <- c1
+
+cs <- c1
+
+vs <- v2
+
+vg <- v2
+
+vi <- vr
+
+vt <- v2
+
+vr <- v2
+
+cva <- ca shwa
+vca <- shwa ca
+
+cvca_wordInitial <- c3? v1
+cvca <- c3 v1
+cvcb <- c4 v1
+
+cvf <- "xr" v2 / cvcb
+
+cvs <- cs shwa
+
+vce_wordFinal <- vce_t / vce_v / vce_c consonant+ / vce_a consonant+
+vce <-vce_t / vce_v / vce_c consonant+ / vce_a consonant+
+vce_c <- v3
+vce_a <- v4
+vce_t <- vce_ta vce_tb
+vce_ta <- [[aeiou]] / [[aeo]] "i" [[aeou]]
+vce_tb <- [[lr]] [[ţḑ]]
+vce_va <- [[aeo]] "i" / "ao"
+vce_vb <- [[lr]] [[ţḑ]]
+
+vcv <- vcv1 vcv2 vcv3
+vcv1 <- shwa
+vcv2 <- [[lrmnŋ]]?
+vcv3 <- [[szcjfvţḑkpt]] / "sk" / "sp" / "st"
+
+vxc <- v2 consonant+
+
+
+
+// FORMATIVE //
+
+formative <- ( ( cvf ci vi cva* )+ ca / ca_wordInitial? ) vr ( cvca / cvs )* cr ( vce_wordFinal / vce ( vxc / vca )* ( vt ( ['] vcv )? )? )
+
+
+
+// VERBAL ADJUNCT //
+
+verbal_adjunct <- cm vs cs?
+
+
+
+// PERSONAL REFERENCE ADJUNCT //
+
+personal_reference_adjunct <- cvca+ cn vxc* vg?
+
+
+
+// REGISTER PLACEHOLDER //
+
+register_placeholder <- "o"
