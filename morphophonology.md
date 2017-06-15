@@ -6,6 +6,8 @@
   * [Short Form](#short-form)
   * [Long Form](#long-form)
 * [Carrier Word](#carrier-word)
+* [Suffix](#suffix)
+* [Bias](#bias)
 * [Register Placeholder](#register-placeholder)
 * [Parsing Words](#parsing-words)
 
@@ -106,9 +108,19 @@ The carrier word is formed using a personal reference adjunct with one of the fo
 | Inanimate entity (`P1/S2`) |      rsk       |
 | Abstract concept (`P1/S3`) |      lsk       |
 
+## Suffix
+
+Any [VxC](affixes.md#vxc) suffix can act on its own as an indepedent word.
+
+## Bias
+
+Unlike 2011 Ithkuil, Bias is no longer conveyed by a suffix, but instead by a word. The bias word may be placed anywhere in the sentence, but is usually at the beginning or end or adjacent to the verb.
+
+The values of bias suffixes are listed under [Cb](affixes.md#cb) on the [affixes page](affixes.md).
+
 ## Register Placeholder
 
-The word **o** may be used as a placeholder to convey the morphological category of [Register](register.md). It can also be used to draw attention to the following word(s).
+The word **o** may be used as a placeholder to convey the morphological category of [Register](register.md). It can also be used to draw attention to the word(s) which follow it.
 
 ## Parsing Words
 

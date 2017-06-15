@@ -2,7 +2,7 @@
 
 * [Morphological Hierarchy](#morphological-hierarchy)
 
-The morphology is copied directly from [2011 Ithkuil](http://www.ithkuil.net/).
+The morphology is copied directly from [2011 Ithkuil](http://www.ithkuil.net/). [Here is an up-to-date reference sheet.](https://docs.google.com/document/d/11luFPZI03IB9-mGGQ6L2C1eNHpHP6skmsjrMeAfCU-M/edit)
 
 ## Morphological Hierarchy
 

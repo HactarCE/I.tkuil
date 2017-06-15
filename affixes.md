@@ -1,6 +1,7 @@
 # Affixes
 
 * [Ca - CAP](#ca)
+* [Cb - Bias](#cb)
 * [Ci - Incorporated root](#ci)
 * [Cm - Modality](#cm)
 * [Cn - PRA Referent](#cn)
@@ -55,6 +56,39 @@ Ca3 conveys Perspective.
 | `U` Unbounded |  r  |
 | `N` Nomic     |  w  |
 | `A` Abstract  |  y  |
+
+## Cb
+
+Cb conveys Bias.
+
+| Bias                | Cb (normal) | Cb (intensive) |
+|---------------------|:-----------:|:--------------:|
+| `ASU` ASSURATIVE    |      n      |       nn       |
+| `HPB` HYPERBOLIC    |      m      |       mm       |
+| `COI` COINCIDENTAL  |      ŋ      |       ŋŋ       |
+| `ACP` ACCEPTIVE     |      ţ      |       ţţ       |
+| `RAC` REACTIVE      |     hy      |      hhy       |
+| `STU` STUPEFACTIVE  |      s      |       ss       |
+| `CTV` CONTEMPLATIVE |      z      |       zz       |
+| `DPV` DESPERATIVE   |      c      |       cc       |
+| `RVL` REVELATIVE    |      l      |       ll       |
+| `GRT` GRATIFICATIVE |      r      |       rr       |
+| `SOL` SOLICITIVE    |      ř      |       řř       |
+| `SEL` SELECTIVE     |      ļ      |       ļļ       |
+| `IRO` IRONIC        |     khy     |      khhy      |
+| `EXA` EXASPERATIVE  |     pl̥      |      pl̥l̥       |
+| `LTL` LITERAL       |     phy     |      phhy      |
+| `CRR` CORRECTIVE    |      x      |       xx       |
+| `EUP` EUPHEMISTIC   |     kx      |      kxx       |
+| `SKP` SKEPTICAL     |     ks      |      kss       |
+| `CYN` CYNICAL       |      f      |       ff       |
+| `CTP` CONTEMPTIVE   |     kc      |      kcc       |
+| `DSM` DISMISSIVE    |     kf      |      kff       |
+| `IDG` INDIGNATIVE   |     pc      |      pcc       |
+| `SGS` SUGGESTIVE    |     ps      |      pss       |
+| `PPV` PROPOSITIVE   |     pf      |      pff       |
+
+Only `EUP` bias has been modified from its 2011 Ithkuil form, **xh**.
 
 ## Ci
 
