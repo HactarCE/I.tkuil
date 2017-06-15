@@ -29,7 +29,7 @@ The following forms of VCe are permitted:
 
 ## VCe_c
 
-VCe_c works in conjunction with VCe_m1 to convey Case.
+VCe_c works in conjunction with VCe_f to convey Case.
 
 **C1**-**C5** in the table below correspond to columns in [VCe_f](#vce_f).
 
