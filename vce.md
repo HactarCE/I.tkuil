@@ -133,10 +133,7 @@ VCe_n conveys Sanction and Validation.
 | `EXV` Expatiative   |   f   | sp/ps |  ŋs   |  ŋst  |  ŋsp  |  ŋsk  |
 | `AXM` Axiomatic     |   v   | zb/bz |  ŋc   |  ŋct  |  ŋcp  |  ŋck  |
 
-\* VCe_n may be left blank if it conveys `CNF/PPS` and one of the following conditions is met:
-* The formative carries no Mood
-* The formative carries Factual mood and VCe is word-final
-* [VCe_m2](#vce_m2) is used to convey Subjunctive mood
+\* VCe_n may be left blank if it conveys `CNF/PPS`, the formative carries Factual or Subjunctive mood, and VCe is word-final.
 
 ## VCe_t
 
