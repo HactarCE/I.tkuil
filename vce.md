@@ -16,8 +16,10 @@ The following forms of VCe are permitted:
 | Form                                                                        | Use                                         |
 |-----------------------------------------------------------------------------|---------------------------------------------|
 | [VCe_c](#vce_c) + [VCe_f](#vce_f)                                           | noun or framed verb                         |
-| [VCe_c](#vce_c) + [VCe_m1](#vce_m1) + [VCe_f](#vce_f)                       | framed verb                                 |
-| [VCe_a](#vce_a) + [VCe_m2a](#vce_m2) + [VCe_n](#vce_n) + [VCe_m2b](#vce_m2) | verb with `ASR` illocution                  |
+| [VCe_c](#vce_c) + [VCe_m1](#vce_m1) + [VCe_f](#vce_f)                       | framed verb (word-final)                    |
+| [VCe_c](#vce_c) + [VCe_m2a](#vce_m2) + [VCe_f](#vce_f) + [VCe_m2b](#vce_m2) | framed verb (intervocalic)                  |
+| [VCe_a](#vce_a) + [VCe_m1](#vce_m1) + [VCe_n](#vce_n)                       | verb with `ASR` illocution (word-final)     |
+| [VCe_a](#vce_a) + [VCe_m2a](#vce_m2) + [VCe_n](#vce_n) + [VCe_m2b](#vce_m2) | verb with `ASR` illocution (intervocalic)   |
 | [VCe_ta](#vce_t) + [VCe_tb](#vce_t)                                         | verb with `IRG` or `ADM` illocution         |
 | [VCe_va](#vce_v) + [VCe_vb](#vce_v)                                         | verb with `DIR`, `HOR`, or `DEC` illocution |
 
