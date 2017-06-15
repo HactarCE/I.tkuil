@@ -9,8 +9,6 @@ For convenience, here are all of the special specials this system uses:
 ```
 ə ŋ ţ ḑ l̥ ẘ ẙ
 Ə Ŋ Ţ Ḑ L̥ W̊ Y̊
-á é í ó ú
-Á É Í Ó Ú
 ```
 
 If you're using Windows, you can use [this AutoHotkey script](special_symbols.ahk) to type those symbols.

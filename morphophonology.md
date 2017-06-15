@@ -13,10 +13,10 @@
 
 Formatives are the nouns and verbs of Ithkuil, and are the most useful and powerful parts of speech. Formatives have had a complete overhaul since 2011 Ithkuil. Each now consists of ten slots.
 
-|                                  1a                                   |                    1b                     |           2           |          3          |                          4                           |                      5                      |                              6                               |           7           |              8               |                      9                      |                     10                     |
-|:---------------------------------------------------------------------:|:-----------------------------------------:|:---------------------:|:-------------------:|:----------------------------------------------------:|:-------------------------------------------:|:------------------------------------------------------------:|:---------------------:|:----------------------------:|:-------------------------------------------:|:------------------------------------------:|
-| ( ( [CVf](affixes.md#cvf) + [Ci](affixes.md#ci) + [Vi](affixes.md#vi) | ( + [CVa](affixes.md#cva-and-vca) )\* )\* | [Ca](affixes.md#ca) ) | [Vr](affixes.md#vr) | ( [CVca](affixes.md#cvc) / [CVs](affixes.md#cvs) )\* | [Cr](affixes.md#cr) + [VCe](affixes.md#vce) | ( [VxC](deriv_suffix.md) / [VCa](affixes.md#cva-and-vca) )\* | ( [Vt](affixes.md#vt) | ( '[VCv](affixes.md#vcv) ) ) | [[stress]](essence_and_register.md#essence) | [[tone]](essence_and_register.md#register) |
-|                           Incorporated root                           |         CAP of Incorporated root          |          CAP          |         PSD         |              Additional Case or Aspect               |            Main root + CFI + SVM            |               Deriv. suffix or additional CAP                |  Context + Extension  |      Version + Valence       |                   Essence                   |                  Register                  |
+|                                  1a                                   |                    1b                     |           2           |          3          |                          4                           |                      5                      |                              6                               |           7           |              8               |           9           |
+|:---------------------------------------------------------------------:|:-----------------------------------------:|:---------------------:|:-------------------:|:----------------------------------------------------:|:-------------------------------------------:|:------------------------------------------------------------:|:---------------------:|:----------------------------:|:---------------------:|
+| ( ( [CVf](affixes.md#cvf) + [Ci](affixes.md#ci) + [Vi](affixes.md#vi) | ( + [CVa](affixes.md#cva-and-vca) )\* )\* | [Ca](affixes.md#ca) ) | [Vr](affixes.md#vr) | ( [CVca](affixes.md#cvc) / [CVs](affixes.md#cvs) )\* | [Cr](affixes.md#cr) + [VCe](affixes.md#vce) | ( [VxC](deriv_suffix.md) / [VCa](affixes.md#cva-and-vca) )\* | ( [Vt](affixes.md#vt) | ( '[VCv](affixes.md#vcv) ) ) | [[tone]](register.md) |
+|                           Incorporated root                           |         CAP of Incorporated root          |     CAP + Essence     |         PSD         |              Additional Case or Aspect               |            Main root + CFI + SVM            |               Deriv. suffix or additional CAP                |  Context + Extension  |      Version + Valence       |       Register        |
 
 Parenthetical groups of affixes are optional and interdependent.  
 Groups marked with an asterisk may be repeated.
@@ -34,10 +34,10 @@ SVM = Sanction + Validation + Mood
 6\. Derivational suffix or additional CAP  
 7\. Context + Extension  
 8\. Version + Valence  
-9\. Essence
-10\. Register
+9\. Register
 
-* Slots 3, 5, 9, and 10 are required.
+* Slot 3 carries stress.
+* Slots 3, 5, and 9 are required.
 * Slot 1 cannot exist without slot 2.
 * Slot 8 cannot exist without slot 7.
 * Slots 1, 4, and 6 may be repeated.
@@ -55,10 +55,10 @@ Unlike in 2011 Ithkuil, case-frame is not an overt morphological category, but i
 
 Verbal adjuncts supply extra information about adjacent verbal formatives.
 
-|          A          |             B              |               C                |                     D                      |
-|:-------------------:|:--------------------------:|:------------------------------:|:------------------------------------------:|
-| [Cm](affixes.md#cm) | [Vs](affixes.md#cs-and-vs) | ( [Cs](affixes.md#cs-and-vs) ) | [[tone]](essence_and_register.md#register) |
-|      Modality       |           Aspect           |             Aspect             |                  Register                  |
+|          A          |             B              |               C                |           D           |
+|:-------------------:|:--------------------------:|:------------------------------:|:---------------------:|
+| [Cm](affixes.md#cm) | [Vs](affixes.md#cs-and-vs) | ( [Cs](affixes.md#cs-and-vs) ) | [[tone]](register.md) |
+|      Modality       |           Aspect           |             Aspect             |       Register        |
 
 Parenthetical groups of affixes are optional.
 
@@ -75,10 +75,10 @@ Verbal adjuncts must appear immediately before or after the formative they modif
 
 Personal reference adjuncts (PRAs) operate similarly to pronouns of other languages. Unlike in 2011 Ithkuil, there is only one PRA structure, with six slots.
 
-|              I               |         II          |            III             |           IV            |                      V                      |                     VI                     |
-|:----------------------------:|:-------------------:|:--------------------------:|:-----------------------:|:-------------------------------------------:|:------------------------------------------:|
-| [ [CVca](affixes.md#cvc) ]\* | [Cn](affixes.md#cn) | ( [VxC](affixes.md#vxc) )* | ( [Vg](affixes.md#cg) ) | [[stress]](essence_and_register.md#essence) | [[tone]](essence_and_register.md#register) |
-|             Case             |      Referent       |       Deriv. suffix        |      Configuration      |                   Essence                   |                  Register                  |
+|              I               |         II          |            III             |           IV            |           V           |
+|:----------------------------:|:-------------------:|:--------------------------:|:-----------------------:|:---------------------:|
+| [ [CVca](affixes.md#cvc) ]\* | [Cn](affixes.md#cn) | ( [VxC](affixes.md#vxc) )* | ( [Vg](affixes.md#cg) ) | [[tone]](register.md) |
+|             Case             |      Referent       |       Deriv. suffix        | Configuration + Essence |       Register        |
 
 Groups in square brackets are required.  
 Groups in round parentheses are optional.  
@@ -87,10 +87,10 @@ Groups marked with an asterisk may be repeated.
 I. Case  
 II. Referent  
 III. Derivational suffix
-IV. Configuration
-V. Essence
-VI. Register
+IV. Configuration + Essence
+V. Register
 
+* If there is more than one syllable, the penultimate syllable carries stress.
 * Slots I and II are required.
 * Slots I and III may be repeated.
 
@@ -108,7 +108,7 @@ The carrier word is formed using a personal reference adjunct with one of the fo
 
 ## Register Placeholder
 
-The word **o** may be used as a placeholder to convey the morphological category of [Register](#essence_and_register.md#register). It can also be used to draw attention to the following word(s).
+The word **o** may be used as a placeholder to convey the morphological category of [Register](register.md). It can also be used to draw attention to the following word(s).
 
 ## Parsing Words
 

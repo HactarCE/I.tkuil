@@ -1,21 +1,4 @@
-# Essence and Register
-
-* [Essence](#essence)
-* [Register](#register)
-
-## Essence
-
-[Formatives](morphophonology.md#formative) and [long-form PRAs](morphophonology.md#long-form) have Essence, conveyed by stress:
-
-| Syllable count    | `NRM` Normal       | `RPV` Representative   |
-|-------------------|--------------------|------------------------|
-| Monosyllabic (1)  | default            | N/A                    |
-| Disyllabic (2)    | penultimate stress | ultimate stress        |
-| Polysyllabic (≥3) | penultimate stress | antepenultimate stress |
-
-If a word has Representative essence, the stressed vowel is marked with an acute accent (`apál`) or prefixed with an exclamation mark (`ap!al`). If a diphthong is stressed, only the first vowel is marked. Normal essence is unmarked.
-
-## Register
+# Register
 
 All words have Register, which is conveyed by tone:
 

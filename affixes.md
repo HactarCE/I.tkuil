@@ -22,25 +22,34 @@
 
 ## Ca
 
-Ca encodes Configuration, Affiliation, and Perspective. It is divided into two parts: Ca1 and Ca2.
+Ca encodes Configuration, Affiliation, Perspective, and Essence. It is divided into three parts: Ca1, Ca2, and Ca3.
 
-Ca1 conveys Configuration and Affiliation.
+Ca1 conveys Affiliation.
 
-| Ca1                | `CSL` Consolidative | `ASO` Associative | `VAR` Variative | `COA` Coalescent |
-|--------------------|:-------------------:|:-----------------:|:---------------:|:----------------:|
-| `UNI` Uniplex      |         (l)         |         m         |        n        |        ŋ         |
-| `DPX` Duplex       |          s          |         z         |        c        |        j         |
-| `DCT` Discrete     |          p          |         b         |       ps        |        bz        |
-| `AGG` Aggregative  |          k          |         g         |       ks        |        gz        |
-| `SEG` Segmentative |          f          |         v         |        ţ        |        ḑ         |
-| `CPN` Componential |          t          |         d         |       ts        |        dz        |
-| `COH` Coherent     |         sp          |        zb         |      pc/cp      |      jb/bj       |
-| `CST` Composite    |         sk          |        fs         |      kc/ck      |        fc        |
-| `MLT` Multiform    |         st          |        zd         |      tc/ct      |        dj        |
+| Configuration       | Ca1 |
+|---------------------|:---:|
+| `CSL` Consolidative |  -  |
+| `ASO` Associative   |  m  |
+| `VAR` Variative     |  n  |
+| `COA` Coalescent    |  ŋ  |
 
-Ca2 conveys Perspective.
+Ca2 encodes Configuration and Essence.
 
-| Perspective   | Ca2 |
+| Ca2                | `NRM` Normal | `RPS` Representational |
+|--------------------|:------------:|:----------------------:|
+| `UNI` Uniplex      |     (l)      |           sp           |
+| `DPX` Duplex       |      s       |           z            |
+| `DCT` Discrete     |      p       |           b            |
+| `AGG` Aggregative  |      k       |           g            |
+| `SEG` Segmentative |      f       |           v            |
+| `CPN` Componential |      t       |           d            |
+| `COH` Coherent     |      c       |           j            |
+| `CST` Composite    |      ţ       |           ḑ            |
+| `MLT` Multiform    |      sk      |           st           |
+
+Ca3 conveys Perspective.
+
+| Perspective   | Ca3 |
 |---------------|:---:|
 | `M` Monadic   |  -  |
 | `U` Unbounded |  r  |
@@ -117,7 +126,7 @@ Cn2 conveys first and third person referents. Whether the speaker (first person)
 | Indefinite animate    |          f           |        v         |
 | Indefinite inanimate  |          ţ           |        ḑ         |
 | Impersonal animate    |          ps          |        ts        |
-| Impersonal inanimate  |          ps          |        tc        |
+| Impersonal inanimate  |          pc          |        tc        |
 | Mixed `M`/`U`/`N`/`A` |          f           |        v         |
 | Collective            |          x           |       N/A        |
 | Abstract              |          lx          |       N/A        |
@@ -169,19 +178,19 @@ Cs and Vs each convey Aspect.
 
 ## Vg
 
-Vg conveys Configuration.
+Vg encodes Configuration and Essence.
 
-| Configuration      | Vg |
-|--------------------|:--:|
-| `UNI` Uniplex      | a  |
-| `DPX` Duplex       | e  |
-| `DCT` Discrete     | i  |
-| `AGG` Aggregative  | u  |
-| `SEG` Segmentative | oa |
-| `CPN` Componential | oe |
-| `COH` Coherent     | ai |
-| `CST` Composite    | ei |
-| `MLT` Multiform    | o  |
+| Vg                 | `NRM` Normal | `RPS` Representational |
+|--------------------|:------------:|:----------------------:|
+| `UNI` Uniplex      |      a       |         ia/ua          |
+| `DPX` Duplex       |      e       |         ie/ue          |
+| `DCT` Discrete     |     i/u      |         iu/ui          |
+| `AGG` Aggregative  |      o       |         io/oi          |
+| `SEG` Segmentative |      ai      |          aia           |
+| `CPN` Componential |      ei      |          eie           |
+| `COH` Coherent     |      oi      |          oio           |
+| `CST` Composite    |      oa      |          oia           |
+| `MLT` Multiform    |      oe      |          oie           |
 
 ## Vi
 
