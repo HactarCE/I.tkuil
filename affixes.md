@@ -221,7 +221,7 @@ Vr encodes Pattern, Stem, and Designation.
 
 ## CVa and VCa
 
-CVa and VCa each encode Configuration, Affiliation, and Perspective. The consonantal portion of each is identical to [Ca](#ca). If the syllable is unstressed, the vocalic portion is always **ə**; if the syllable is stressed, it is **au**.
+CVa and VCa each encode Configuration, Affiliation, and Perspective. The consonantal portion of each is identical to [Ca](#ca); the vocalic portion is always **ə**.
 
 ## CVc
 
@@ -279,7 +279,7 @@ CVf conveys Format. It may either be one of the following values, or any value f
 
 ## CVs
 
-CVs conveys Aspect. The consonantal portion is identical to [Cs](#cs-and-vs). If the syllable is unstressed, the vocalic portion is always **ə**; if the syllable is stressed, it is **au**.
+CVs conveys Aspect. The consonantal portion is identical to [Cs](#cs-and-vs); the vocalic portion is always **ə**.
 
 ## VCe
 
