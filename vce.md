@@ -18,11 +18,11 @@ The following forms of VCe are permitted:
 | [VCe_c](#vce_c) + [VCe_f](#vce_f)                                           | noun or framed verb                         |
 | [VCe_c](#vce_c) + [VCe_m1](#vce_m1) + [VCe_f](#vce_f)                       | framed verb (word-final)                    |
 | [VCe_c](#vce_c) + [VCe_m2a](#vce_m2) + [VCe_f](#vce_f) + [VCe_m2b](#vce_m2) | framed verb (intervocalic)                  |
-| [VCe_a](#vce_a) + [VCe_m2a](#vce_m2) + [VCe_n](#vce_n) + [VCe_m2b](#vce_m2) | verb with `ASR` illocution (intervocalic)   |
+| [VCe_a](#vce_a) + [VCe_m2a](#vce_m2) + [VCe_n](#vce_n) + [VCe_m2b](#vce_m2) | verb with `ASR` illocution (intervocalic\*)   |
 | [VCe_ta](#vce_t) + [VCe_tb](#vce_t)                                         | verb with `IRG` or `ADM` illocution         |
 | [VCe_va](#vce_v) + [VCe_vb](#vce_v)                                         | verb with `DIR`, `HOR`, or `DEC` illocution |
 
-\* If a formative carries Assertive illocution and non-Factual mood, VCe must be followed by a vowel
+\* If a formative carries `ASR` illocution, Mood other than `FAC` or `SUB`, and Sanction other than `CNF` or `AFM`, VCe must be followed by a vowel
 
 * If VCe conveys null Function, then the formative is a noun
 * If VCe conveys Function, but not Case, then the formative is a verb
@@ -148,8 +148,8 @@ VCe_t conveys Function, Mood, and either Interrogative or Admonitive illocution.
 |-------------------|:-----------:|:-----------:|:-----------:|:-----------:|
 | `STA` Stative     |      a      |     aia     |     eia     |     oia     |
 | `DYN` Dynamic     |      e      |     aie     |     eie     |     oie     |
-| `MNF` Manifestive |     i/u     |     aio     |     eio     |     oio     |
-| `DSC` Descriptive |      o      |     aiu     |     eiu     |     oiu     |
+| `MNF` Manifestive |      o      |     aio     |     eio     |     oio     |
+| `DSC` Descriptive |     i/u     |     aiu     |     eiu     |     oiu     |
 
 | VCe_tb              | `FAC`/`ASM`/`COU`/`IPL` | `SUB`/`SPC`/`HYP`/`ASC` |
 |---------------------|:-----------------------:|:-----------------------:|
