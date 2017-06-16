@@ -7,19 +7,20 @@
 * [Cn - PRA Referent](#cn)
 * [Cr - Main root](#cr)
 * [Cs - Aspect](#cs-and-vs)
+* [Cv - Version + Valence](#cv)
 * [Vg - Configuration](#vg)
 * [Vi - PSD of incorporated root](#vi)
-* [Vt - Context + Extension](#vt)
+* [Vp - Phase](#vp)
 * [Vr - PSD](#vr)
 * [Vs - Aspect](#cs-and-vs)
+* [Vt - Context + Extension](#vt)
 * [CVa - CAP](#cva-and-vca)
 * [CVc - Case](#cvc)
 * [CVf - Format](#cvf)
 * [CVs - Aspect](#cvs)
 * [VCa - CAP](#cva-and-vca)
 * [VCe - CFI + SVM](#vce)
-* [VCv - Version + Valence](#cv)
-* [VxC - Derivational suffixe](#vxc)
+* [VxC - Derivational suffix](#vxc)
 
 ## Ca
 
@@ -210,6 +211,40 @@ Cs and Vs each convey Aspect.
 | `ITC` Intercommutative | sp/ps | oie |
 | `CSM` Consumptive      | sk/ks | oiu |
 
+## Cv
+
+Cv encodes Version and Valence. It is split into two parts: VCv1, VCv2.
+
+VCv1 encodes Version.
+
+| Version            | Cv1 |
+|--------------------|:---:|
+| `PRC` Processual   |  -  |
+| `CPT` Completive   |  l  |
+| `INE` Ineffectual  |  r  |
+| `INC` Incompletive |  m  |
+| `PST` Positive     |  n  |
+| `EFC` Effective    |  ŋ  |
+
+VCv2 encodes Valence.
+
+| Valence             | Cv2 |
+|---------------------|:---:|
+| `MNO` Monoactive    |  s  |
+| `PRL` Parallel      |  z  |
+| `CRO` Corollary     |  c  |
+| `RCP` Reciprocal    |  j  |
+| `CPL` Complementary |  f  |
+| `NNR` Nonrelational |  v  |
+| `DUP` Duplicative   |  ţ  |
+| `DEM` Demonstrative |  ḑ  |
+| `RES` Resistive     |  k  |
+| `IMT` Imitative     | sk  |
+| `CNG` Contingent    |  p  |
+| `PTI` Participative | sp  |
+| `IDC` Indicative    |  t  |
+| `MUT` Mutual        | st  |
+
 ## Vg
 
 Vg encodes Configuration and Essence.
@@ -230,6 +265,32 @@ Vg encodes Configuration and Essence.
 
 Vi encodes Pattern, Stem, and Designation. Its values are identical to [Vr](#vr).
 
+## Vp
+
+Vp conveys Phase. It is always preceded by a glottal stop `'`.
+
+| Phase                | Vp  |
+|----------------------|:---:|
+| `CTX` Contextual     | oi  |
+| `PUN` Punctual       | ai  |
+| `ITR` Iterative      | ei  |
+| `REP` Repetitive     | i/u |
+| `ITM` Intermittent   |  a  |
+| `RCT` Recurrent      |  e  |
+| `FRE` Frequentastive | eu  |
+| `FRG` Fragmentative  | au  |
+| `FLC` Fluctuative    |  o  |
+
+## Vr
+
+Vr encodes Pattern, Stem, and Designation.
+
+| Vr     | P1 `IFL` | P2 `IFL` | P3 `IFL` | P1 `FML` | P2 `FML` | P3 `FML` |
+|--------|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+| Stem 1 |    a     |    o     |    ai    |   aia    |   aie    |   aio    |
+| Stem 2 |    e     |   i/u    |    ei    |   eia    |   eie    |   eio    |
+| Stem 3 |    au    |    eu    |    oi    |   oia    |   oie    |   oio    |
+
 ## Vt
 
 Vt encodes Context and Extension.
@@ -242,16 +303,6 @@ Vt encodes Context and Extension.
 | `TRM` Terminative |       ia/ua       |      ie/ue       |         io/uo          |       iu/ui        |
 | `GRA` Graduative  |        eia        |       eie        |          eio           |        eiu         |
 | `DPL` Depletive   |        oia        |       oie        |          oio           |        oiu         |
-
-## Vr
-
-Vr encodes Pattern, Stem, and Designation.
-
-| Vr     | P1 `IFL` | P2 `IFL` | P3 `IFL` | P1 `FML` | P2 `FML` | P3 `FML` |
-|--------|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-| Stem 1 |    a     |    o     |    ai    |   aia    |   aie    |   aio    |
-| Stem 2 |    e     |   i/u    |    ei    |   eia    |   eie    |   eio    |
-| Stem 3 |    au    |    eu    |    oi    |   oia    |   oie    |   oio    |
 
 ## CVa and VCa
 
@@ -318,42 +369,6 @@ CVs conveys Aspect. The consonantal portion is identical to [Cs](#cs-and-vs); th
 ## VCe
 
 VCe encodes any valid combination of Case, Function, Illocution, Sanction, Validation, and Mood. [VCe is significantly more complicated than any of the other affixes and is detailed on its own page.](vce.md)
-
-## VCv
-
-VCv encodes Version and Valence. It is split into three parts: VCv1, VCv2, and VCv3.
-
-VCv1 is always **ə**.
-
-VCv2 encodes Version.
-
-| Version            | Cv1 |
-|--------------------|:---:|
-| `PRC` Processual   |  -  |
-| `CPT` Completive   |  l  |
-| `INE` Ineffectual  |  r  |
-| `INC` Incompletive |  m  |
-| `PST` Positive     |  n  |
-| `EFC` Effective    |  ŋ  |
-
-VCv3 encodes Valence.
-
-| Valence             | Cv2 |
-|---------------------|:---:|
-| `MNO` Monoactive    |  s  |
-| `PRL` Parallel      |  z  |
-| `CRO` Corollary     |  c  |
-| `RCP` Reciprocal    |  j  |
-| `CPL` Complementary |  f  |
-| `NNR` Nonrelational |  v  |
-| `DUP` Duplicative   |  ţ  |
-| `DEM` Demonstrative |  ḑ  |
-| `RES` Resistive     |  k  |
-| `IMT` Imitative     | sk  |
-| `CNG` Contingent    |  p  |
-| `PTI` Participative | sp  |
-| `IDC` Indicative    |  t  |
-| `MUT` Mutual        | st  |
 
 ### VxC
 

@@ -13,12 +13,14 @@
 
 ## Formative
 
-Formatives are the nouns and verbs of Ithkuil, and are the most useful and powerful parts of speech. Formatives have had a complete overhaul since 2011 Ithkuil. Each now consists of ten slots.
+Formatives are the nouns and verbs of Ithkuil, and are the most useful and powerful parts of speech. Formatives have had a complete overhaul since 2011 Ithkuil. Each now consists of up to ten slots.
 
-|                                  1a                                   |                    1b                     |           2           |          3          |                          4                           |                      5                      |                              6                               |           7           |              8               |           9           |
-|:---------------------------------------------------------------------:|:-----------------------------------------:|:---------------------:|:-------------------:|:----------------------------------------------------:|:-------------------------------------------:|:------------------------------------------------------------:|:---------------------:|:----------------------------:|:---------------------:|
-| ( ( [CVf](affixes.md#cvf) + [Ci](affixes.md#ci) + [Vi](affixes.md#vi) | ( + [CVa](affixes.md#cva-and-vca) )\* )\* | [Ca](affixes.md#ca) ) | [Vr](affixes.md#vr) | ( [CVca](affixes.md#cvc) / [CVs](affixes.md#cvs) )\* | [Cr](affixes.md#cr) + [VCe](affixes.md#vce) | ( [VxC](deriv_suffix.md) / [VCa](affixes.md#cva-and-vca) )\* | ( [Vt](affixes.md#vt) | ( '[VCv](affixes.md#vcv) ) ) | [[tone]](register.md) |
-|                           Incorporated root                           |         CAP of Incorporated root          |     CAP + Essence     |         PSD         |              Additional Case or Aspect               |            Main root + CFI + SVM            |               Deriv. suffix or additional CAP                |  Context + Extension  |      Version + Valence       |       Register        |
+|                                  1a                                   |                    1b                     |           2           |          3          |                          4                           |                      5                      |                              6                               |           7           |           8            |              9               |          10           |
+|:---------------------------------------------------------------------:|:-----------------------------------------:|:---------------------:|:-------------------:|:----------------------------------------------------:|:-------------------------------------------:|:------------------------------------------------------------:|:---------------------:|:----------------------:|:----------------------------:|:---------------------:|
+| ( ( [CVf](affixes.md#cvf) + [Ci](affixes.md#ci) + [Vi](affixes.md#vi) | ( + [CVa](affixes.md#cva-and-vca) )\* )\* | [Ca](affixes.md#ca) ) | [Vr](affixes.md#vr) | ( [CVca](affixes.md#cvc) / [CVs](affixes.md#cvs) )\* | [Cr](affixes.md#cr) + [VCe](affixes.md#vce) | ( [VxC](deriv_suffix.md) / [VCa](affixes.md#cva-and-vca) )\* | ( [Vt](affixes.md#vt) | ( '[Vp](affixes.md#vp) | ( [Cv](affixes.md#vcv) ) ) ) | [[tone]](register.md) |
+|                           Incorporated root                           |         CAP of Incorporated root          |     CAP + Essence     |         PSD         |              Additional Case or Aspect               |            Main root + CFI + SVM            |               Deriv. suffix or additional CAP                |  Context + Extension  |         Phase          |      Version + Valence       |       Register        |
+
+( ( [CVf](affixes.md#cvf) + [Ci](affixes.md#ci) + [Vi](affixes.md#vi) ( + [CVa](affixes.md#cva-and-vca) )\* )\* [Ca](affixes.md#ca) ) [Vr](affixes.md#vr) ( [CVca](affixes.md#cvc) / [CVs](affixes.md#cvs) )\* [Cr](affixes.md#cr) + [VCe](affixes.md#vce) ( [VxC](deriv_suffix.md) / [VCa](affixes.md#cva-and-vca) )\* ( [Vt](affixes.md#vt) ( '[Vp](affixes.md#vp) ( [Cv](affixes.md#vcv) ) ) ) + [[tone]](register.md)
 
 Parenthetical groups of affixes are optional and interdependent.  
 Groups marked with an asterisk may be repeated.
@@ -39,9 +41,9 @@ SVM = Sanction + Validation + Mood
 9\. Register
 
 * Slot 3 carries stress.
-* Slots 3, 5, and 9 are required.
+* Slots 3, 5, and 10 are required.
 * Slot 1 cannot exist without slot 2.
-* Slot 8 cannot exist without slot 7.
+* Slot 8 cannot exist without slot 7, and slot 9 cannot exist without slot 8.
 * Slots 1, 4, and 6 may be repeated.
 * Within slot 1, only slot 1a is required. Slot 1b is optional and may be repeated.
 
@@ -110,7 +112,7 @@ The carrier word is formed using a personal reference adjunct with one of the fo
 
 ## Suffix
 
-Any [VxC](affixes.md#vxc) suffix can act on its own as an indepedent word.
+Any type 1 [VxC](affixes.md#vxc) suffix can act on its own as an independent word, which modifies the next formative.
 
 ## Bias
 
