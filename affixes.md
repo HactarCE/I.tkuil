@@ -93,7 +93,7 @@ Only `EUP` bias has been modified from its 2011 Ithkuil form, **xh**.
 
 ## Ci
 
-Ci can be any root from the [lexicon](roots.md).
+Ci can be any root from the [lexicon](roots.md). These roots are either C (a single consonant cluster) or CVC (two consonant clusters separated by **ə**).
 
 ## Cm
 
@@ -169,7 +169,7 @@ Cn2 conveys first and third person referents. Whether the speaker (first person)
 
 ## Cr
 
-Cr can be any root from the [lexicon](roots.md).
+Cr can be any root from the [lexicon](roots.md). These roots are either C (a single consonant cluster) or CVC (two consonant clusters separated by **ə**).
 
 ## Cs and Vs
 

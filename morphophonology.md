@@ -9,6 +9,7 @@
 * [Suffix](#suffix)
 * [Bias](#bias)
 * [Register Placeholder](#register-placeholder)
+* [Mathematical Sub-Language](#mathematical-sub-language)
 * [Parsing Words](#parsing-words)
 
 ## Formative
@@ -109,6 +110,7 @@ The carrier word is formed using a personal reference adjunct with one of the fo
 | Animate being (`P1/S1`)    |       sk       |
 | Inanimate entity (`P1/S2`) |      rsk       |
 | Abstract concept (`P1/S3`) |      lsk       |
+| Mathematical formula       |       ms       |
 
 ## Suffix
 
@@ -123,6 +125,10 @@ The values of bias suffixes are listed under [Cb](affixes.md#cb) on the [affixes
 ## Register Placeholder
 
 The word **o** may be used as a placeholder to convey the morphological category of [Register](register.md). It can also be used to draw attention to the word(s) which follow it.
+
+## Mathematical Sub-Language
+
+The mathematical sub-language is not complete yet, but is currently in the works.
 
 ## Parsing Words
 

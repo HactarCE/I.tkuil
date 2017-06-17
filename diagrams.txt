@@ -1,0 +1,34 @@
+Constant
+
+Diagram(
+  'ə',
+  Optional(Sequence('rə (negative)'), 'skip'),
+  Choice(
+    0,
+    OneOrMore(NonTerminal('digit seqence')),
+    'hy (tau)',
+    'hw (e)',
+    'l̥ (∞)'
+  )
+)
+
+
+
+Digit sequence
+
+Diagram(
+  OneOrMore(
+    Choice(
+      NonTerminal('single digit'),
+      Sequence('
+    )
+  )
+)
+
+
+
+Single digit
+
+Diagram(
+  Choice(0, 'ə', 'ŋ (0)', 'l (1)', 'k (2)', 'ţ (3)', 'p (4)', 's (5)', 'c (6)', 'n (7)', 'f (8)', 'x (9)', 'm (A)', 't (B)', 'd (.)')
+)
