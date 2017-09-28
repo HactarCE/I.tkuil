@@ -1,4 +1,4 @@
-**This project has been abandoned in favor of [Yalbi](https://github.com/HactarCE/Yalbi/), a language based on Ithkuil with the goal of preserving sanity.
+**This project has been abandoned in favor of [Yalbi](https://github.com/HactarCE/Yalbi/), a language based on Ithkuil with the goal of preserving sanity.**
 
 # I.tkuil
 
